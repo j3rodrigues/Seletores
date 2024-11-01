@@ -1,0 +1,66 @@
+/* Q1 - Agrupamento seletores de tags */
+h1,h2,h3 {
+    color: blue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+} 
+
+/* Q2 Agrupamento seletores de classes */
+.card, .button {
+    border: 10px solid gray;
+    border-radius: 10px;
+}
+
+
+/* Q3 Agrupamento seletores de ID's*/
+#footer, #header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+/* Q4 Selector de descendentes*/
+nav ul li {
+    list-style-type: none;
+} 
+
+
+/* Q5 Selector de classe e tag */
+button.primary {
+    color: white;
+    background-color: green;
+}
+
+
+/* Q6 Selector filho direito*/
+div > p {
+    color: red;
+    text-align: center;
+}
+
+/* Q7 */
+#menu{
+    color: blue;
+}
+
+/* Q8 */
+.navbar{
+    color: green;
+}
+
+/* Q9 */
+nav{
+    color: red;
+}
+
+/* Q10 */
+nav{
+    font-family: Georgia;
+}
+.navbar{
+    font-family: Arial;
+}
+#menu{
+    font-family: 'Times New Roman';
+}
