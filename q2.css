@@ -1,0 +1,4 @@
+.card, .button {
+    border: 10px solid gray;
+    border-radius: 10px;
+}
